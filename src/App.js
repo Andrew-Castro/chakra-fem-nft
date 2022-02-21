@@ -3,25 +3,52 @@ import avatar from './image-avatar.png'
 import equil from './image-equilibrium.jpg'
 import eth from './icon-ethereum.svg'
 import clock from './icon-clock.svg'
+import view from './icon-view.svg'
 
 function App() {
 
-  let textColor = "#8BACD9"
-  let hover = "#00FFF8"
+  const textColor = "#8BACD9"
+  const cyan = "#00FFF8"
   
   return (
     <div className="App">
       <Center bg="#0D192C" h="100vh">
         <Box bg="#15263F" color="white" borderRadius="2xl" p={6} w={350}>
-        <Image
-          src={equil}
-          borderRadius="8px"
-          marginBottom={6}
-          cursor="pointer"
-          alt="NFT image"
+        <Box
+          position="relative"
         >
+          <Image
+            src={equil}
+            borderRadius="8px"
+            marginBottom={6}
+            cursor="pointer"
+            alt="NFT image"
+            zIndex="2"
+          >
 
-        </Image>
+          </Image>
+          <Box 
+          zIndex="1"
+          position="absolute"
+          backgroundColor={cyan}
+          width="100%"
+          height="100%"
+          top="0"
+          borderRadius="8px"
+          opacity="0"
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          _hover={{
+            opacity: "50%"
+          }}
+          >
+            <Image src={view}
+            height="48px"
+            width="48px">
+            </Image>
+          </Box>
+        </Box>
         <Heading 
           as="h2" 
           fontSize="22px" 
