@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/chakra-fem-nft/static/css/main.d8951e70.css",
-    "main.js": "/chakra-fem-nft/static/js/main.03ddd534.js",
+    "main.js": "/chakra-fem-nft/static/js/main.d120c989.js",
     "static/media/outfit-all-400-normal.woff": "/chakra-fem-nft/static/media/outfit-all-400-normal.ebe720451ec7933da175.woff",
     "static/media/image-equilibrium.jpg": "/chakra-fem-nft/static/media/image-equilibrium.88bdbc91a544a2a4d04a.jpg",
     "static/media/outfit-latin-400-normal.woff2": "/chakra-fem-nft/static/media/outfit-latin-400-normal.0e64d891414eb9716034.woff2",
     "index.html": "/chakra-fem-nft/index.html",
+    "static/media/icon-view.svg": "/chakra-fem-nft/static/media/icon-view.fedac5512cc6657af397a76d5e03ea37.svg",
     "static/media/icon-clock.svg": "/chakra-fem-nft/static/media/icon-clock.991a65225dab4fadc84345ecb35faa1b.svg",
     "static/media/icon-ethereum.svg": "/chakra-fem-nft/static/media/icon-ethereum.5221f33297e5dc863451e2da9a758c12.svg",
     "main.d8951e70.css.map": "/chakra-fem-nft/static/css/main.d8951e70.css.map",
-    "main.03ddd534.js.map": "/chakra-fem-nft/static/js/main.03ddd534.js.map"
+    "main.d120c989.js.map": "/chakra-fem-nft/static/js/main.d120c989.js.map"
   },
   "entrypoints": [
     "static/css/main.d8951e70.css",
-    "static/js/main.03ddd534.js"
+    "static/js/main.d120c989.js"
   ]
 }
