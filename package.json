@@ -1,7 +1,7 @@
 {
   "name": "ntf-fem",
   "version": "0.1.0",
-  "homepage": "https://Andrew-Castro.github.io/chakra-fem-nft",
+  "homepage": "https://andrew-castro.github.io/chakra-fem-nft/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^1.8.5",
