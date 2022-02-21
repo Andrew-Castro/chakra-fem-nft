@@ -18,6 +18,7 @@ function App() {
           borderRadius="8px"
           marginBottom={6}
           cursor="pointer"
+          alt="NFT image"
         >
 
         </Image>
@@ -40,6 +41,7 @@ function App() {
               src={eth}
               marginRight="6px"
               height="18px"
+              alt="ETH logo"
             >
             </Image>
             <Text color="#00FFF8" fontWeight="bold">
@@ -51,6 +53,7 @@ function App() {
                 src={clock}
                 marginRight="6px"
                 height="16px"
+                alt="clock icon"
               >
 
             </Image>
